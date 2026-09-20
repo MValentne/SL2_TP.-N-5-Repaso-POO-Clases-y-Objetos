@@ -1,6 +1,6 @@
 ﻿namespace repaso_POO
 {
-    partial class Form1
+    partial class Form1Punto1
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,44 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
             SuspendLayout();
             // 
-            // button1
-            // 
-            button1.Location = new Point(12, 143);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Punto 1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(93, 143);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 1;
-            button2.Text = "Punto 2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // Form1
+            // Form1Punto1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(220, 178);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Name = "Form1";
+            ClientSize = new Size(321, 450);
+            Name = "Form1Punto1";
             Text = "Form1";
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Button button1;
-        private Button button2;
     }
 }
