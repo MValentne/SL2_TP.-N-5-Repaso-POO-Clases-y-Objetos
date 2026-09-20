@@ -11,5 +11,11 @@ namespace repaso_POO
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormPunto2 formulario = new FormPunto2();
+            formulario.ShowDialog();
+        }
     }
 }

@@ -34,9 +34,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 143);
+            button1.Location = new Point(17, 238);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(107, 38);
             button1.TabIndex = 0;
             button1.Text = "Punto 1";
             button1.UseVisualStyleBackColor = true;
@@ -44,20 +45,23 @@
             // 
             // button2
             // 
-            button2.Location = new Point(93, 143);
+            button2.Location = new Point(133, 238);
+            button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(107, 38);
             button2.TabIndex = 1;
             button2.Text = "Punto 2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(220, 178);
+            ClientSize = new Size(314, 297);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
