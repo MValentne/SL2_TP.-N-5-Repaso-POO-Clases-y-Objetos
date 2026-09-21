@@ -1,14 +1,14 @@
-﻿namespace repaso_POO
+﻿namespace repaso_POO.Punto_3
 {
-    partial class Form1
+    partial class BorrarPersona
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,63 +23,74 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             button1 = new Button();
             button2 = new Button();
-            btn_FormPunto3 = new Button();
+            cmb_Personas = new ComboBox();
+            label5 = new Label();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(12, 37);
+            button1.Location = new Point(32, 104);
             button1.Name = "button1";
-            button1.Size = new Size(75, 53);
+            button1.Size = new Size(111, 80);
             button1.TabIndex = 0;
-            button1.Text = "Punto 1";
+            button1.Text = "Borrar Persona";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(109, 37);
+            button2.Location = new Point(149, 104);
             button2.Name = "button2";
-            button2.Size = new Size(75, 53);
+            button2.Size = new Size(116, 80);
             button2.TabIndex = 1;
-            button2.Text = "Punto 2";
+            button2.Text = "Ver Lista";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // btn_FormPunto3
+            // cmb_Personas
             // 
-            btn_FormPunto3.Location = new Point(209, 37);
-            btn_FormPunto3.Name = "btn_FormPunto3";
-            btn_FormPunto3.Size = new Size(75, 53);
-            btn_FormPunto3.TabIndex = 2;
-            btn_FormPunto3.Text = "Punto 3";
-            btn_FormPunto3.UseVisualStyleBackColor = true;
-            btn_FormPunto3.Click += btn_FormPunto3_Click;
+            cmb_Personas.FormattingEnabled = true;
+            cmb_Personas.Location = new Point(91, 59);
+            cmb_Personas.Name = "cmb_Personas";
+            cmb_Personas.Size = new Size(121, 23);
+            cmb_Personas.TabIndex = 25;
             // 
-            // Form1
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(50, 31);
+            label5.Name = "label5";
+            label5.Size = new Size(206, 15);
+            label5.TabIndex = 24;
+            label5.Text = "Ingrese el ID de la persona a actualizar";
+            // 
+            // BorrarPersona
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(369, 151);
-            Controls.Add(btn_FormPunto3);
+            ClientSize = new Size(312, 218);
+            Controls.Add(cmb_Personas);
+            Controls.Add(label5);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "BorrarPersona";
+            Text = "BorrarPersona";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
         private Button button2;
-        private Button btn_FormPunto3;
+        private ComboBox cmb_Personas;
+        private Label label5;
     }
 }
