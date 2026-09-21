@@ -31,6 +31,7 @@
             button1 = new Button();
             button2 = new Button();
             btn_FormPunto3 = new Button();
+            btn_FormPunto4 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -63,11 +64,22 @@
             btn_FormPunto3.UseVisualStyleBackColor = true;
             btn_FormPunto3.Click += btn_FormPunto3_Click;
             // 
+            // btn_FormPunto4
+            // 
+            btn_FormPunto4.Location = new Point(309, 37);
+            btn_FormPunto4.Name = "btn_FormPunto4";
+            btn_FormPunto4.Size = new Size(75, 53);
+            btn_FormPunto4.TabIndex = 3;
+            btn_FormPunto4.Text = "Punto 4";
+            btn_FormPunto4.UseVisualStyleBackColor = true;
+            btn_FormPunto4.Click += btn_FormPunto4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(369, 151);
+            ClientSize = new Size(440, 151);
+            Controls.Add(btn_FormPunto4);
             Controls.Add(btn_FormPunto3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -81,5 +93,6 @@
         private Button button1;
         private Button button2;
         private Button btn_FormPunto3;
+        private Button btn_FormPunto4;
     }
 }

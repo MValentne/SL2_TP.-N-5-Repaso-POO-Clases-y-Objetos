@@ -23,5 +23,11 @@ namespace repaso_POO
             FormPunto3 formulario = new FormPunto3();
             formulario.ShowDialog();
         }
+
+        private void btn_FormPunto4_Click(object sender, EventArgs e)
+        {
+            FormPunto4 formulario = new FormPunto4();
+            formulario.ShowDialog();
+        }
     }
 }
